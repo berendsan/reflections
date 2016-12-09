@@ -18,4 +18,40 @@ but clustered, or file by file. Maybe in this way you can first add/commit files
 
 
 
-* waiting for next question
+* How can you use the staging area to make sure you have one commit per logical change?
+
+By adding one file at a time to commit. You can choose the file you want to commit,
+so not to commit all files with changes that you may have forgotten about. 
+Better to keep track of seperate changes.
+
+
+
+
+* What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Some parts of a project (info pages, classes that are finished, experimental 
+feautures, add-ons) that are not part of your main branch of development 
+can be stored like this and tweaked with, without interfering or polluting
+your main commits.
+
+
+
+
+* How do the diagrams help you visualize the branch structure?
+
+By visualizing it, and therefore making it easier to see at which stage certain branches were still together and share certain features.
+
+
+
+
+* What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+All the commits made in the two seperate branches are now reachable through the new master-branch log.
+
+
+
+
+* What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pro: it can save you A LOT of time
+Con: if more people are working on the same branch, git probably finds many merging conflicts. These need to be resolved manually anyway.
