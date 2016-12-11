@@ -2,3 +2,7 @@
 
 When you are using different devices or workstations to work on your project and when switching you haven't really have done anything worthy of a commit, but did some work on it that you still don't want to loose. It needs to be accessible from anywhere.
 Or when working on a project together with other people that also need access to your current file?
+
+
+* Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+For the same reason as why you don't want commits to be done automatically. You only want to update logical changes.
