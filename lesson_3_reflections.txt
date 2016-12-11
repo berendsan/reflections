@@ -1,1 +1,4 @@
+* When would you want to use a remote repository rather than keeping all your work local?
 
+When you are using different devices or workstations to work on your project and when switching you haven't really have done anything worthy of a commit, but did some work on it that you still don't want to loose. It needs to be accessible from anywhere.
+Or when working on a project together with other people that also need access to your current file?
